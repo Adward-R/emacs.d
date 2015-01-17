@@ -1,0 +1,4 @@
+main: main.cpp
+	clang++ -o main main.cpp
+check-syntax:
+	clang++ -o nul -S ${CHK_SOURCES}

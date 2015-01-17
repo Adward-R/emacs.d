@@ -85,7 +85,7 @@ ARCHIVE is the string name of the package archive.")
 (if (not *emacs24*) (add-to-list 'package-archives '("localelpa" . "~/.emacs.d/localelpa")))
 
 ;; Or Un-comment below line if you prefer installing package from https://github.com/redguardtoo/myelpa/ directly
-;; (setq package-archives '(("myelpa" . "https://raw.github.com/redguardtoo/myelpa/master/")))
+ (setq package-archives '(("myelpa" . "~/Dropbox/emacs/myelpa/")))
 
 (defvar melpa-include-packages
   '(bbdb
